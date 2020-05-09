@@ -1,3 +1,22 @@
 .inline-centering {
     text-align: center !important;
 }
+body {
+    background-image : url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=5c5c5c&density=13&opacity=62);
+}
+h1 {
+  font-family: 'Tangerine', cursive;
+  font-size:5em;
+}
+@import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
+
+.img {
+  width:100%;
+}
+
+@media screen and (max-width: 767px) {
+  .img {
+    width:300%;
+    overflow-x: scroll;
+  }
+}
